@@ -1,0 +1,34 @@
+{
+  "build": {
+    "cpu": "cortex-m7",
+    "f_cpu": "600000000L",
+    "mcu": "mimxrt1062",
+    "zephyr": {
+       "variant":"teensy40"
+    }
+  },
+  "debug": {
+    "jlink_device": "MIMXRT1062xxxxA",
+    "onboard_tools": [
+      "jlink"
+    ]
+  },
+  "frameworks": [
+    "zephyr"
+  ],
+  "name": "Teensy 4.0",
+  "upload": {
+    "maximum_ram_size": 524288,
+    "maximum_size": 2031616,
+    "protocol": "teensy-gui",
+    "protocols": [
+      "jlink",
+      "blackmagic",
+      "mbed",
+      "teensy-cli",
+      "teensy-gui"
+    ]
+  },
+  "url": "https://www.pjrc.com/store/teensy40.html",
+  "vendor": "Teensy"
+}
