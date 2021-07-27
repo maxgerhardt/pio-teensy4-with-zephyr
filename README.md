@@ -4,7 +4,7 @@
 
 While this project compiles normally, due to lack of teensy-cli/gui support in platform-nxplc, one has to do uploading manually.
 
-After building, use `C:\Users\<user>\packages\tool-teensy\teensy-gui.exe` to upload the `.pio\build\teensy40\firmware.hex` file and reboot the MCU.
+After building, use `C:\Users\<user>\packages\tool-teensy\teensy.exe` to upload the `.pio\build\teensy40\firmware.hex` file and reboot the MCU.
 
 If `tool-teensy` does not exist, have PlatformIO download it by creating a dummy regular Teensy 4.0 projects using `pio init -b teensy40 && pio run -t upload` or VSCode -> New Project -> Teensy 4.0 + Arduino -> Uopload.
 
